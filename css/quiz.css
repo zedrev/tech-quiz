@@ -1,0 +1,124 @@
+ @import url("./resetter.css");
+
+/* BOX CONTAINER */
+.container {
+    width: min(390px, 90dvw);
+    min-height: 200px;
+
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    padding-inline: 15px;
+    padding-block: 20px;
+}
+
+.correct {
+    color: white;
+    background: var(--green);
+}
+
+.incorrect {
+    color: white;
+    background: var(--red);
+}
+
+button:not([disabled]) {
+    cursor: pointer;
+}
+
+.question-field {    
+    width: 100%;
+}
+
+.topic-text {
+    color: var(--black);
+    font-family: var(--header-font);
+    font-size: clamp(10px, 6dvw, 21px);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+}
+
+.question-text {
+    color: var(--black);
+    font-family: var(--text-font);
+    font-size: clamp(10px, 5dvw, 16px);
+}
+
+
+.scrollable-answer-field {
+    min-height: 275px;
+    padding: 10px 20px 12px 12px;
+}
+
+@media only screen and (max-width: 500px) {
+    .scrollable-answer-field {
+        min-height: 310px;
+    }
+}
+
+.default-answer-field {    
+    overflow-y: auto;
+    padding: 12px;
+    margin-top: 20px;    
+    width: 100%;
+    height: 210px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.answer-button:disabled {
+    cursor: no-drop;
+}
+
+.answer-button {        
+    outline: 1px solid var(--black);
+    color: var(--black);    
+    padding-inline: 20px;
+    text-align: left;
+    padding-block: 18px;
+    border-radius: 5px;
+    overflow-wrap: break-word;
+    transition: transform 0.1s ease,
+                background 0.05s ease;    
+}
+
+.answer-button:not([disabled]):hover {
+    transform: scale(1.05);
+    background: var(--grey);
+}
+
+.answer-button:not([disabled]):active {
+    transform: scale(0.97);
+}
+
+.submit-field {
+    width: 100%;    
+    text-align: center;
+}
+
+.next-button {
+    color: var(--black);  
+    border-radius: 5px;
+    width: 40%;
+    padding-block: 10px;
+    margin-top: 20px;
+    transition: transform 0.2s ease;    
+    background: var(--blue);
+    color: var(--white);
+    font-family: var(--text-font);        
+    font-weight: 800;
+    font-size: 0.9rem;
+}
+
+.next-button:hover {
+    transform: scale(1.15);
+}
+
+.next-button:active {
+    transform: scale(0.98);
+}

@@ -1,0 +1,54 @@
+[
+    {
+        "topic": "Network Administration",
+        "question": "What is Network Administration?",
+        "answers": [
+            { "text": "It involves managing and maintaining computer networks within an organization to ensure their smooth operation and security.", "correct": true },
+            { "text": "It is the practice of administering network-based aromatherapy sessions for stress relief.", "correct": false },
+            { "text": "It is the process of administering physical exercises to network cables.", "correct": false }
+
+        ]
+    },
+    {
+        "topic": "Network Administration",
+        "question": "What does IP Address stand for?",
+        "answers": [
+            { "text": "Internet Provider", "correct": false },
+            { "text": "Interconnected Protocol", "correct": false },
+            { "text": "Internet Protocol", "correct": true },
+            { "text": "Infrastructure Protection", "correct": false }
+        ]
+    },
+    {
+        "topic": "Network Administration",        
+        "question": "What does DHCP stand for?",
+        "answers": [
+            { "text": "Dynamic Host Control Protocol", "correct": false },
+            { "text": "Domain Host Configuration Protocol", "correct": false },
+            { "text": "Distributed Host Configuration Protocol", "correct": false },
+            { "text": "Dynamic Host Configuration Protocol", "correct": true }
+
+        ]
+    },
+    {
+        "topic": "Computer Programming",
+        "question": "What is the meaning of OOP?",
+        "answers": [
+            { "text": "Object Oriented Processing", "correct": false },
+            { "text": "Object Oriented Programming", "correct": true },
+            { "text": "Octagon Organized Programs", "correct": false },
+            { "text": "Orange Obsolete Processing", "correct": false }
+        ]
+    },
+    {
+        "topic": "Computer Programming",
+        "question": "What is the meaning of constant variables?",
+        "answers": [
+            { "text": "Variables that hold fixed values and cannot be changed during program execution.", "correct": true },
+            { "text": "Variables that are predefined by the programming language, providing default values for commonly used data types and simplifying the coding process by eliminating the need for explicit variable declarations and assignments.", "correct": false },
+            { "text": "Variables that are randomly generated and cannot be modified, serving as placeholders for dynamic data within the program, thus allowing for flexibility and adaptability in the application's behavior.", "correct": false },
+            { "text": "Uhh it is a variable...? heh:>", "correct": false }
+
+        ]
+    }
+]
